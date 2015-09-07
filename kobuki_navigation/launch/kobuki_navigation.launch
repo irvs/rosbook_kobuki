@@ -8,11 +8,6 @@
     <param name="publish_frequency" type="double" value="5.0" />
   </node>
 
-  <!-- kobuki control option 
-  <include file="$(find kobuki_navigation)/launch/velocity_smoother.launch.xml"/>
-  <include file="$(find kobuki_navigation)/launch/safety_controller.launch.xml"/> 
-  -->
-
   <!-- sensor -->
   <node pkg="urg_node" type="urg_node" name="kobuki_urg_node" output="screen">
     <param name="frame_id" value="base_scan" />
